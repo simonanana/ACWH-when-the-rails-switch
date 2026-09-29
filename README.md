@@ -2,7 +2,7 @@
 
 **Replication code for _"When the Rails Switch: Financial-Infrastructure Fragmentation under Geoeconomic Sanctions and the Reconfiguration of International Investment Arbitration"_**
 
-[Your Name] · Accepted for presentation at the 2026 Taipei International Conference on Arbitration and Mediation (CAA / ACWH, NTU College of Law, 20–21 October 2026), Session III: *The Variety of Disputes and International Dispute Resolution*.
+Yihan Guo · Accepted for presentation at the 2026 Taipei International Conference on Arbitration and Mediation (CAA / ACWH, NTU College of Law, 20–21 October 2026), Session III: *The Variety of Disputes and International Dispute Resolution*.
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License: MIT](https://img.shields.io/badge/code-MIT-green) ![Status](https://img.shields.io/badge/status-conference%20paper-orange)
 
