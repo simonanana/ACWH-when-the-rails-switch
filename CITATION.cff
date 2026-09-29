@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "When the Rails Switch — replication code"
+type: software
+authors:
+  - family-names: "[Family name]"
+    given-names: "[Given name]"
+license: MIT
+repository-code: "https://github.com/[username]/when-the-rails-switch"
+keywords:
+  - investor-state dispute settlement
+  - ICSID
+  - economic sanctions
+  - international arbitration
+  - few-cluster inference
+  - partial identification
+  - difference-in-differences
+preferred-citation:
+  type: conference-paper
+  title: "When the Rails Switch: Financial-Infrastructure Fragmentation under Geoeconomic Sanctions and the Reconfiguration of International Investment Arbitration"
+  authors:
+    - family-names: "[Family name]"
+      given-names: "[Given name]"
+  conference:
+    name: "2026 Taipei International Conference on Arbitration and Mediation"
+    city: "Taipei"
+    date-start: 2026-10-20
+    date-end: 2026-10-21
+  year: 2026
