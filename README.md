@@ -127,7 +127,7 @@ This repository was checked in two ways before release.
 
 ```bibtex
 @inproceedings{rails_switch_2026,
-  author    = {[Your Name]},
+  author    = {Yihan Guo},
   title     = {When the Rails Switch: Financial-Infrastructure Fragmentation under
                Geoeconomic Sanctions and the Reconfiguration of International
                Investment Arbitration},
