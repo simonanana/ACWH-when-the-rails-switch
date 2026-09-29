@@ -3,8 +3,8 @@ message: "If you use this code, please cite the paper below."
 title: "When the Rails Switch — replication code"
 type: software
 authors:
-  - family-names: "[Family name]"
-    given-names: "[Given name]"
+  - family-names: "Guo"
+    given-names: "Yihan"
 license: MIT
 repository-code: "https://github.com/[username]/when-the-rails-switch"
 keywords:
@@ -19,8 +19,8 @@ preferred-citation:
   type: conference-paper
   title: "When the Rails Switch: Financial-Infrastructure Fragmentation under Geoeconomic Sanctions and the Reconfiguration of International Investment Arbitration"
   authors:
-    - family-names: "[Family name]"
-      given-names: "[Given name]"
+    - family-names: "Guo"
+      given-names: "Yihan"
   conference:
     name: "2026 Taipei International Conference on Arbitration and Mediation"
     city: "Taipei"
