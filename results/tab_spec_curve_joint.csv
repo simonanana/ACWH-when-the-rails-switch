@@ -1,0 +1,17 @@
+outcome,spec_subset,statistic,observed,null_design,null_median,null_q95,p_joint,B
+natcourt_exposed,all,median_beta,12.061245830097569,profile permutation (all specs),1.6393228972881464,11.847468010417314,0.06187624750499002,500
+natcourt_exposed,all,median_beta,12.061245830097569,timing only (within each definition),9.954235384560143,15.119907106142385,0.2435129740518962,500
+natcourt_exposed,all,share_pos_sig,0.3392857142857143,profile permutation (all specs),0.0,0.3035714285714285,0.03792415169660679,500
+natcourt_exposed,all,share_pos_sig,0.3392857142857143,timing only (within each definition),0.27232142857142855,0.4642857142857143,0.3033932135728543,500
+natcourt_exposed,availability-controlled,median_beta,9.039309150554532,profile permutation (all specs),1.1219997918480038,11.405333208400224,0.12974051896207583,500
+natcourt_exposed,availability-controlled,median_beta,9.039309150554532,timing only (within each definition),8.775121032307428,14.246756455966823,0.4630738522954092,500
+natcourt_exposed,availability-controlled,share_pos_sig,0.30952380952380953,profile permutation (all specs),0.0,0.26309523809523705,0.03592814371257485,500
+natcourt_exposed,availability-controlled,share_pos_sig,0.30952380952380953,timing only (within each definition),0.25,0.4523809523809524,0.2954091816367265,500
+is_uncitral,all,median_beta,14.989159011409901,profile permutation (all specs),6.091725991039182,15.117090891710557,0.05588822355289421,500
+is_uncitral,all,median_beta,14.989159011409901,timing only (within each definition),7.428973734959353,12.592690553436201,0.011976047904191617,500
+is_uncitral,all,share_pos_sig,0.6071428571428571,profile permutation (all specs),0.0357142857142857,0.3754464285714282,0.011976047904191617,500
+is_uncitral,all,share_pos_sig,0.6071428571428571,timing only (within each definition),0.1607142857142857,0.3571428571428571,0.001996007984031936,500
+is_uncitral,availability-controlled,median_beta,13.750523064437278,profile permutation (all specs),5.761673947411113,14.94488735179832,0.08183632734530938,500
+is_uncitral,availability-controlled,median_beta,13.750523064437278,timing only (within each definition),6.694787265902463,12.134456539501294,0.013972055888223553,500
+is_uncitral,availability-controlled,share_pos_sig,0.5952380952380952,profile permutation (all specs),0.0238095238095238,0.36964285714285655,0.011976047904191617,500
+is_uncitral,availability-controlled,share_pos_sig,0.5952380952380952,timing only (within each definition),0.1309523809523809,0.3333333333333333,0.001996007984031936,500
