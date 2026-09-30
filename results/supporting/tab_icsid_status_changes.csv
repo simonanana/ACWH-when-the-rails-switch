@@ -1,0 +1,18 @@
+iso3,state,event,date,in_sample,as_respondent,as_claimant_home
+ECU,Ecuador,denunciation effective,2010-01-07,True,True,False
+QAT,Qatar,entry into force,2011-01-20,True,True,True
+CPV,Cabo Verde,entry into force,2011-01-26,True,True,False
+MDA,Moldova,entry into force,2011-06-04,True,True,True
+SSD,South Sudan,entry into force,2012-05-18,False,False,False
+VEN,Venezuela,denunciation effective,2012-07-25,True,True,True
+MNE,Montenegro,entry into force,2013-05-10,True,True,False
+STP,Sao Tome and Principe,entry into force,2013-06-19,False,False,False
+CAN,Canada,entry into force,2013-12-01,True,True,True
+SMR,San Marino,entry into force,2015-05-18,False,False,False
+IRQ,Iraq,entry into force,2015-12-17,True,True,False
+NRU,Nauru,entry into force,2016-05-12,False,False,False
+MEX,Mexico,entry into force,2018-08-26,True,True,True
+DJI,Djibouti,entry into force,2020-07-09,False,False,False
+ECU,Ecuador,entry into force,2021-09-03,True,True,False
+KGZ,Kyrgyz Republic,entry into force,2022-05-21,True,True,False
+AGO,Angola,entry into force,2022-10-21,False,False,False
