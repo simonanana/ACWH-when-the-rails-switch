@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Omitted-variable sensitivity benchmarked on Convention-status eligibility.}
+\label{tab:ovb}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Treatment & Outcome & $\hat\beta$ & $R^2_{S\sim Z}$ & $R^2_{Y\sim Z}$ & $k=0.5$ & $k=1$ & $k=2$ \\
+\midrule
+$\geq$2 Western & Non-Convention & 11.58 & 0.183 & 0.176 & -22.70 & -63.52 & -178.93 \\
+$\geq$2 Western & UNCITRAL & 0.49 & 0.183 & 0.062 & -19.87 & -44.12 & -112.69 \\
+Legacy index & Non-Convention & 20.70 & 0.209 & 0.175 & -22.12 & -75.47 & -245.98 \\
+Legacy index & UNCITRAL & 12.45 & 0.209 & 0.059 & -12.39 & -43.34 & -142.25 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.95\linewidth}\footnotesize
+Sensitivity of the eligibility-conditioned estimate to an omitted legal factor $k$ times as strong as the three-valued eligibility indicators $Z$ \citep{cinelli2020}. $R^2_{S\sim Z}$ and $R^2_{Y\sim Z}$ are partial $R^2$ after respondent and year fixed effects. The last three columns report the bias-adjusted estimate.
+\end{minipage}
+\end{table}

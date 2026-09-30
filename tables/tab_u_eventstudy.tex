@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Heterogeneity-robust estimates and sensitivity to parallel trends.}
+\label{tab:event}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lllrrcc}
+\toprule
+Treatment & Outcome & Avail. & ATT & (jack.) & RR CI, $\bar M=0$ & $\bar M=0.5$ \\
+\midrule
+$\geq$2 Western & Non-Convention & None & 31.69 & (14.71) & [3.2, 51.2] & [-64.9, 131.7] \\
+$\geq$2 Western & Non-Convention & 3-valued & 18.78 & (8.74) & [-7.7, 41.3] & [-79.4, 129.9] \\
+$\geq$2 Western & UNCITRAL & None & 26.64 & (8.27) & [-11.5, 25.1] & [-109.6, 125.3] \\
+$\geq$2 Western & UNCITRAL & 3-valued & 16.01 & (14.98) & [-19.0, 17.6] & [-118.4, 124.7] \\
+Legacy index & Non-Convention & None & 33.39 & (19.61) & [20.8, 46.7] & [-96.1, 163.9] \\
+Legacy index & Non-Convention & 3-valued & 20.51 & (11.25) & [13.5, 41.1] & [-65.9, 117.9] \\
+Legacy index & UNCITRAL & None & 32.55 & (11.13) & [3.2, 28.8] & [-130.4, 163.5] \\
+Legacy index & UNCITRAL & 3-valued & 20.48 & (21.58) & [0.1, 24.1] & [-117.7, 142.2] \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.95\linewidth}\footnotesize
+Imputation estimator of \citet{borusyak2024}: respondent, year (and eligibility) effects estimated on untreated cases only; treated cases of respondents with no untreated case cannot be imputed and are excluded. Standard errors from a respondent-level jackknife. The last two columns report 95\% robust confidence intervals for the average post-onset event-study effect under the relative-magnitude restriction of \citet{rambachan2023}.
+\end{minipage}
+\end{table}

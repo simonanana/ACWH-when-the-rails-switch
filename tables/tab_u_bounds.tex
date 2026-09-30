@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Interpretive ranges under alternative Article~72 codings.}
+\label{tab:bounds}
+\small
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrccc}
+\toprule
+Treatment & Outcome & Strict & Perm. & Range examined & 95\% CI (CR1) & 95\% CI (CV3) \\
+\midrule
+$\geq$2 Western & Non-Convention & 8.89 & 29.30 & [7.40, 35.30] & [-3.73, 64.97] & [-5.92, 89.25] \\
+$\geq$2 Western & UNCITRAL & 1.00 & 13.25 & [-0.55, 15.96] & [-12.81, 26.31] & [-17.83, 31.04] \\
+Legacy index & Non-Convention & 15.86 & 39.47 & [14.00, 46.11] & [3.53, 72.09] & [3.08, 98.74] \\
+Legacy index & UNCITRAL & 11.06 & 24.81 & [9.20, 27.99] & [-9.41, 36.34] & [-29.90, 37.87] \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.95\linewidth}\footnotesize
+The legal status of the 55 cases filed after the respondent's denunciation took effect is not identified. The interpretive range reported is the range of estimates over the strict and permissive readings of Article~72, all eight country-level combinations, and 1{,}000 case-level random assignments at each of $p\in\{0.25, 0.5, 0.75\}$; because the estimator is not monotone in the assignment, the two readings alone need not bound the range, and the search is not claimed to recover global extrema. The bands in the last two columns apply the construction of \citet{imbens2004} to the endpoints of the range examined; because global extrema are not proven, they are sampling-uncertainty bands conditional on the assignments explored, not confidence intervals for a sharply identified parameter.
+\end{minipage}
+\end{table}

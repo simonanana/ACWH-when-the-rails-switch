@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Dispute incidence on the rate-ratio scale.}
+\label{tab:incidencegen}
+\small
+\begin{tabular}{llrcrcr}
+\toprule
+Treatment & Estimator & RR & 95\% CI & $p_{\mathrm{TOST}}$ & MDE$_{80}$ (RR) & Countries \\
+\midrule
+$\geq$2 Western sanctioning jurisdictions & ETWFE-Poisson & 1.13 & [0.64, 2.84] & 0.261 & [0.29, 3.42] & 107 \\
+$\geq$2 Western sanctioning jurisdictions & TWFE-Poisson & 1.28 & [0.80, 3.11] & 0.342 & [0.34, 2.94] & 116 \\
+Legacy index $\geq 0.10$ & ETWFE-Poisson & 0.90 & [0.54, 3.05] & 0.253 & [0.28, 3.52] & 110 \\
+EU and United States jointly & TWFE-Poisson & 1.10 & [0.70, 3.23] & 0.211 & [0.34, 2.92] & 116 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.95\linewidth}\footnotesize
+Poisson models with country and year fixed effects on the 170-economy panel; ETWFE estimates a separate effect for each cohort \citep{wooldridge2023} and aggregates to a rate ratio over treated observations. Confidence intervals from a country-level cluster bootstrap. $p_{\mathrm{TOST}}$ tests equivalence to a rate ratio within $[2/3, 3/2]$. Countries with no disputes in any year are not identified and are dropped. The panel omits nine respondents (57 cases), including Ecuador, the United States, China and the European Union.
+\end{minipage}
+\end{table}
