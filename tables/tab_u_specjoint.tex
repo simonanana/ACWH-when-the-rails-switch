@@ -1,0 +1,42 @@
+\begin{table}[t]
+\centering
+\caption{Specification curve: joint inference across 224 specifications.}
+\label{tab:specjoint}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrr}
+\toprule
+ & & \multicolumn{2}{c}{Profile permutation} & \multicolumn{2}{c}{Timing only} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Outcome and subset & Statistic & Observed & $p$ & Observed & $p$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Non-Convention}} \\
+\quad all specifications      & median effect      & 12.06 & 0.062 & 12.06 & 0.244 \\
+                              & share $p<0.05$     &  0.34 & 0.038 &  0.34 & 0.303 \\
+\quad eligibility-controlled & median effect      &  9.04 & 0.130 &  9.04 & 0.463 \\
+                              & share $p<0.05$     &  0.31 & 0.036 &  0.31 & 0.295 \\
+\addlinespace
+\multicolumn{6}{l}{\emph{UNCITRAL}} \\
+\quad all specifications      & median effect      & 14.99 & 0.056 & 14.99 & 0.012 \\
+                              & share $p<0.05$     &  0.61 & 0.012 &  0.61 & 0.002 \\
+\quad eligibility-controlled & median effect      & 13.75 & 0.082 & 13.75 & 0.014 \\
+                              & share $p<0.05$     &  0.60 & 0.012 &  0.60 & 0.002 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.95\linewidth}\footnotesize
+\emph{Notes:} The specification space crosses seven treatment definitions, four
+codings of Convention-status eligibility, two outcomes, two samples (all cases; excluding
+Venezuela) and two weighting schemes (unweighted; inverse claim-group size): 224
+specifications, of which 16 have fewer than five switching clusters. The
+eligibility-controlled subset drops the 56 specifications per outcome that
+include no eligibility control. Joint null distributions re-estimate every
+specification under each of $B=500$ draws \citep{simonsohn2020,young2019}.
+``Profile'' permutes the vector of onset years across States treated under any
+definition, so it tests whether \emph{which} States are sanctioned matters;
+``timing'' permutes onset years within each definition's own treated States,
+holding fixed which States are sanctioned, so it tests whether \emph{when} they
+were sanctioned matters. The median-effect $p$-value is two-sided; the
+share-significant $p$-value is one-sided.
+\end{minipage}
+\end{table}
