@@ -1,0 +1,34 @@
+moderator,label,outcome,interaction_perSD,se,t,p_raw,N,p_RomanoWolf,p_Bonferroni,survives_RW_5pct
+pnci_cpmi,PNCI: CPMI membership (binary),LADDER,-0.4208,0.0863,-4.878,0.0,882,0.498,0.0,False
+pnci_cpmi,PNCI: CPMI membership (binary),UNC,11.5406,2.8087,4.109,0.0001,882,0.603,0.0033,False
+swap_line_it,PBoC swap line,LADDER,-0.4498,0.113,-3.98,0.0001,882,0.603,0.0033,False
+pnci_equal,PNCI: equal-weight composite,UNC,17.35,5.7114,3.038,0.003,882,0.792,0.099,False
+pnci_cpmi,PNCI: CPMI membership (binary),NONICSID,-10.3404,3.5281,-2.931,0.0041,882,0.792,0.1353,False
+rmb_infra_it,RMB infrastructure (any),LADDER,-0.2931,0.1052,-2.787,0.0062,882,0.792,0.2046,False
+swap_line_it,PBoC swap line,UNC,9.2131,4.3484,2.119,0.0363,882,0.938,1.0,False
+rmb_infra_it,RMB infrastructure (any),NONICSID,-9.2838,4.671,-1.988,0.0493,882,0.938,1.0,False
+clearing_bank_it,RMB clearing bank,NONICSID,-7.6027,3.8718,-1.964,0.052,882,0.942,1.0,False
+swap_line_it,PBoC swap line,NONICSID,-10.1805,5.2938,-1.923,0.057,882,0.948,1.0,False
+clearing_bank_it,RMB clearing bank,LADDER,-0.1666,0.0908,-1.835,0.0691,882,0.955,1.0,False
+unga_align_norm_it,UNGA alignment,UNC,-10.2371,6.8825,-1.487,0.1397,882,0.987,1.0,False
+CIPSit,CIPS direct participant,NONICSID,-7.585,5.1866,-1.462,0.1464,882,0.987,1.0,False
+pnci_equal,PNCI: equal-weight composite,LADDER,-0.3071,0.2434,-1.262,0.2097,882,0.995,1.0,False
+CIPS_broad_it,CIPS broad access,UNC,-7.3438,6.1725,-1.19,0.2366,882,0.995,1.0,False
+CIPSit,CIPS direct participant,LADDER,-0.157,0.1567,-1.002,0.3182,882,0.999,1.0,False
+CIPS_broad_it,CIPS broad access,LADDER,0.0897,0.1062,0.844,0.4003,882,1.0,1.0,False
+clearing_bank_it,RMB clearing bank,UNC,-2.3724,2.9098,-0.815,0.4166,882,1.0,1.0,False
+pnci_equal,PNCI: equal-weight composite,NONICSID,-6.4089,7.9847,-0.803,0.4239,882,1.0,1.0,False
+CIPS_broad_it,CIPS broad access,NONICSID,2.511,3.4762,0.722,0.4716,882,1.0,1.0,False
+CIPSit,CIPS direct participant,UNC,-2.3816,3.541,-0.673,0.5026,882,1.0,1.0,False
+pnci_network,"PNCI: PageRank network centrality (broken, 80.8% of obs < 0.01)",NONICSID,8.6692,12.9327,0.67,0.504,882,1.0,1.0,False
+pnci_network,"PNCI: PageRank network centrality (broken, 80.8% of obs < 0.01)",LADDER,0.1748,0.3345,0.522,0.6024,882,1.0,1.0,False
+rmb_infra_it,RMB infrastructure (any),UNC,1.8152,3.637,0.499,0.6187,882,1.0,1.0,False
+pnci_rank,"PNCI: PageRank within-year percentile rank (rebuilt, recommended)",NONICSID,-3.5058,7.8638,-0.446,0.6566,882,1.0,1.0,False
+pnci_network,"PNCI: PageRank network centrality (broken, 80.8% of obs < 0.01)",UNC,2.2745,6.0846,0.374,0.7092,882,1.0,1.0,False
+pnci_logmm,"PNCI: min-max after log (rebuilt, comparison)",LADDER,0.061,0.234,0.261,0.7948,882,1.0,1.0,False
+pnci_logmm,"PNCI: min-max after log (rebuilt, comparison)",NONICSID,1.9711,9.3921,0.21,0.8341,882,1.0,1.0,False
+unga_align_norm_it,UNGA alignment,LADDER,0.0456,0.2987,0.153,0.8789,882,1.0,1.0,False
+pnci_rank,"PNCI: PageRank within-year percentile rank (rebuilt, recommended)",LADDER,-0.0263,0.1839,-0.143,0.8867,882,1.0,1.0,False
+unga_align_norm_it,UNGA alignment,NONICSID,-0.9785,9.7273,-0.101,0.92,882,1.0,1.0,False
+pnci_rank,"PNCI: PageRank within-year percentile rank (rebuilt, recommended)",UNC,0.4418,6.4384,0.069,0.9454,882,1.0,1.0,False
+pnci_logmm,"PNCI: min-max after log (rebuilt, comparison)",UNC,-0.2454,5.612,-0.044,0.9652,882,1.0,1.0,False
