@@ -25,6 +25,9 @@ international investment agreement (`iia`), the outcome of the original proceedi
 follow-on proceedings (`fo_annulment`, `fo_setaside`, `fo_upheld`, `fo_annulled_full`,
 `fo_annulled_part`, `fo_pending`, …). Produced by `src/r25_iia_choiceset.py --stage worklist`.
 Used for the post-award analysis and the treaty-menu layer. All 958 cases matched.
+The `g`, `S` and `et` columns were attached at merge time from the legacy intensity index
+(98 treated cases); every analysis in the paper re-attaches treatment from
+`derived/gsdb_treatment_cohorts.csv` and does not use them.
 
 ### `reference/icsid_convention_status_icsid3.csv` — 171 rows
 
