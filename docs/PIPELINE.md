@@ -24,6 +24,7 @@ permutation counts; `--only u03 u08` runs selected steps.
 | `u08_spec_curve.py` | 224-specification curve with joint permutation inference, full and eligibility-controlled subsets | §5.12, Table 14, Figures 6–7 | same | `tab_spec_curve.csv`, `tab_spec_curve_joint.csv`, `spec_null_draws_*.csv` |
 | `u09_incidence_etwfe.py` | Incidence: Wooldridge extended TWFE Poisson with a quasi-separation guard | §4, Table 5 | panel ✱, cohorts | `tab_incidence_etwfe.csv` |
 | `u10_paper_tables.py` | Writes LaTeX table fragments from the CSVs above | — | `results/` | `tables/tab_u_*.tex` |
+| `r27_reference_tables.py` | Treaty-layer decomposition and parallel-claims robustness under the reference definition, both outcomes; genuine-choice subsample. Composes existing functions only and checks each number against the paper | §5.10–5.11, Tables 11 and 13 | cases, merged Navigator file, cohorts, reference, treaty menus | `tab_two_layer_reference.csv`, `tab_parallel_claims_reference.csv`, `tab_parallel_claims_groupcluster.csv`, `tab_genuine_choice.csv` |
 | `build_exhibits.py` | Headline table, switching-States table, two-panel core table, and Figures 1, 2, 3, 8, 9 | Tables 1, 7, 12; Figures 1–3, 8–9 | `results/`, cases, cohorts, reference | `figures/*.pdf`, `tables/*.tex` |
 
 ✱ Not redistributable; see `data/README.md`.
@@ -60,8 +61,8 @@ rather than the repository root, so pass `--panel` and `--cases` explicitly.
 | `r14_forum_channels.py` | Supply channel, forum margin: claimant-bloc differential with respondent-by-year fixed effects | §7 | same flags as `r13` |
 | `h4_moderation.py`, `h4b_moderation_rw.py`, `pnci_rebuild.py`, `r12_pnci_rebuild.py` | Alternative-rails moderators (CIPS, CPMI, RMB infrastructure, UNGA alignment, PNCI variants) with Romano–Wolf correction; PNCI normalisation audit | §8 | `python src/h4b_moderation_rw.py` (writes to `outputs/`); `r12` takes the same flags as `r13` |
 | `r22_forum_eligibility.py` | Eligibility decomposition and audit (earlier formulation of §5.4, on the legacy index) | — | `python src/r22_forum_eligibility.py --panel data/analysis_panel_v4.parquet --out outputs` |
-| `r23_claim_group.py` | Parallel-claim groups and robustness | §5.11, Table 13 (partly) | `python src/r23_claim_group.py --out outputs` |
-| `r25_iia_choiceset.py` | Navigator merge (`--stage worklist`) and two-layer treaty-menu decomposition (`--stage merge`) | §5.9–5.10, §6 | `python src/r25_iia_choiceset.py --stage merge --navigator <Navigator.xlsx> --coding data/reference/iia_forum_menu_v4.csv --out outputs` |
+| `r23_claim_group.py` | Parallel-claim grouping (`detect_claim_groups`, `collapse_to_groups`, used by `r27`); its command line runs an earlier, legacy-index UNCITRAL version of the robustness table | §5.11 (via `r27`) | `python src/r23_claim_group.py --out outputs` |
+| `r25_iia_choiceset.py` | Navigator merge (`--stage worklist`, which produced `data/cases_with_navigator.parquet`) and an earlier, legacy-index version of the two-layer decomposition (`--stage merge`); `attach_treaty_choice_set` is used by `r27` | §5.9–5.10 (via `r27`), §6 | `python src/r25_iia_choiceset.py --stage merge --navigator <Navigator.xlsx> --coding data/reference/iia_forum_menu_v4.csv --out outputs` |
 | `feasibility.py` | Feasibility gate: coverage and switching-cluster checks run before estimation | §3.5 | imported by other modules |
 
 `r26_eligibility_audit.py` runs standalone on the case file that `r22` produces:
@@ -83,8 +84,8 @@ Checked by running this repository's code from a clean copy.
 | §7 forum margin (+6.6, p = .644; −4.6, p = .610) | Reproduced exactly by `r14`; `results/supporting/f1_forum_channels.csv` |
 | §8 Romano–Wolf family (33 tests, none survives; CPMI 0.498) | Reproduced exactly by `h4b`; `results/supporting/h4b_moderation_rw.csv` |
 | Incidence (Table 5) | Committed output of `u09`; needs the panel to rerun |
-| Treaty-menu decomposition (Table 11), genuine-choice subsample | Produced by `r25 --stage merge`; needs the Navigator Excel release to rerun |
-| Parallel claims (Table 13) | Baseline and collapsed rows reproduced by `r23` logic under the reference definition. The rows excluding the Crimea claims, with inverse group-size weights, and excluding all parallel groups (N = 666) come from a computation not included here; `r23`'s command line uses the legacy index |
+| Treaty-menu decomposition (Table 11), genuine-choice subsample | Reproduced exactly by `r27` from the data in this repository (all 8 effects, standard errors and p-values; 281 cases, 23.1% vs 22.0%) |
+| Parallel claims (Table 13) | Reproduced exactly by `r27` from the data in this repository (all 10 effects and standard errors; N = 958, 948, 958, 777, 666) |
 
 `results/supporting/` holds the outputs of the supporting modules, generated from this
 code with the full inputs.
